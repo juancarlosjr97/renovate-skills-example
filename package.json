@@ -1,0 +1,11 @@
+{
+  "name": "renovate-skills-example",
+  "description": "A proof-of-concept (PoC) project demonstrating how [Renovate](https://github.com/renovatebot/renovate) can manage updates for the [skills CLI](https://github.com/vercel-labs/skills) — the open agent skills ecosystem tool.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juancarlosjr97/renovate-skills-example.git"
+  },
+  "dependencies": {
+    "express": "^4.22.1"
+  }
+}
