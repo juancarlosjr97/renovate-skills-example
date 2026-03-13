@@ -1,0 +1,14 @@
+name: Skills.sh Update
+
+on:
+  schedule:
+    - cron: "0 0 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  skills-sh-update:
+    uses: juancarlosjr97/github-actions-workflows-to-rule-them-all/.github/workflows/shared-agents-skills-sh-update.yml@de7a9df8d6c0e5d9987dc04f89dc72f5793517fd
