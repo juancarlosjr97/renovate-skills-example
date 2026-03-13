@@ -14,3 +14,5 @@ permissions:
 jobs:
   skills-sh-update:
     uses: juancarlosjr97/github-actions-workflows-to-rule-them-all/.github/workflows/shared-agents-skills-sh-update.yml@main
+
+
