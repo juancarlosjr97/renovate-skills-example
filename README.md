@@ -22,10 +22,6 @@ The goal of this repository is to:
 This repository includes a [`renovate.json`](./renovate.json) with recommended best practices:
 
 - Extends from the `config:recommended` preset for sensible defaults.
-- Enables the [Dependency Dashboard](https://docs.renovatebot.com/key-concepts/dashboard/) for a full overview of pending updates.
-- Groups minor updates together to reduce noise.
-- Enables automerge for patch-level updates to keep dependencies current with minimal manual effort.
-- Limits concurrent PRs to avoid overwhelming the review queue.
 
 ## Related Links
 
