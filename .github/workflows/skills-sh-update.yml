@@ -2,8 +2,8 @@ name: Skills.sh Update
 
 on:
   schedule:
-    - cron: "* * * * *"
-
+    - cron: "*/5 * * * *"
+  
 permissions:
   contents: write
   pull-requests: write
