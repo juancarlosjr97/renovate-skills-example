@@ -6,6 +6,6 @@
     "url": "git+https://github.com/juancarlosjr97/renovate-skills-example.git"
   },
   "dependencies": {
-    "express": "^4.22.1"
+    "express": "^5.0.0"
   }
 }
